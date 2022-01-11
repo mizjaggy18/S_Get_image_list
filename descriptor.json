@@ -1,5 +1,5 @@
 {
-  "name": "Get_image_list",
+  "name": "Get_image_list_v1",
   "description": "To download image list and the details from a project",
   "schema-version": "cytomine-0.1",
   "container-image": {

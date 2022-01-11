@@ -46,8 +46,8 @@ def run(cyto_job, parameters):
         
         id_project=project.id
         # id_image = parameters.cytomine_id_images
-        id_job=parameters.cytomine_id_job
-        id_user = parameters.cytomine_id_user
+        id_job=job.id
+        # id_user = parameters.cytomine_id_user
         # download_path = conn.parameters.download_path
 #         download_size = parameters.download_size
         image_instances = ImageInstanceCollection().fetch_with_filter("project", id_project)
